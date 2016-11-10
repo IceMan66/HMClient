@@ -1,0 +1,20 @@
+{
+"name": "HMClient",
+"frameworks": "Arduino",
+"keywords": "dice, LED",
+"description": "Implement a Homematic Client for ESPP8266",
+"authors":
+[
+    {
+        "name": "Frank.Palm",
+        "email": "frank.palm@gmx.de",
+        "url": "",
+        "maintainer": true
+    },
+],
+"repository":
+{
+    "type": "git",
+    "url": "https://github.com/ms1963/DiceLibArduino"
+}
+}
