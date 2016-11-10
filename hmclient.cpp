@@ -3,15 +3,15 @@
  */
  #include "hmclient.h"
  
- HMClient:HMClient(){
+ HMClient::HMClient(){
 	 
  }
  
- boolean HMClient:setHMSystemVariable(){
+ boolean HMClient::setHMSystemVariable(){
 	 
  }
  
  
- boolean HMClient:getHMSystemVariable(){
+ boolean HMClient::getHMSystemVariable(){
 	 
  }
