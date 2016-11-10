@@ -1,4 +1,17 @@
-#Keywords for DATA Types : KEYWORD1
+#######################################
+# Syntax Coloring Map For HMClient
+#######################################
+HMClient  KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setServer           KEYWORD2
+setHMSystemVariable KEYWORD2
+getHMSystemVariable KEYWORD2
 
 
-#Keywords for Methods : KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
