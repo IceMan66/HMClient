@@ -1,10 +1,10 @@
 # HMClient
 
 
-#Compatible Hardware
+##Compatible Hardware
   
   * Homematic CCU2
   * ESP8266
 
-# License
+##License
 This code is released under the MIT License.
