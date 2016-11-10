@@ -1,13 +1,12 @@
 #######################################
 # Syntax Coloring Map For HMClient
 #######################################
-HMClient            KEYWORD1
+HMClient  KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-
-setServer           KEYWORD2
+setServer KEYWORD2
 setHMSystemVariable KEYWORD2
 getHMSystemVariable KEYWORD2
 
@@ -15,3 +14,4 @@ getHMSystemVariable KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
+HMConfig  LITERAL1
