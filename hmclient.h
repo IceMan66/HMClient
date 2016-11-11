@@ -81,6 +81,11 @@ class HMClient{
     /* write function */
     boolean setHMSystemVariable();
   private:
+      const char* m_host;
+      uint16_t m_port;
+      IPAddress m_ip;
+  
+      String postData(char* host, uint16_t port, String url);
   
 }
 
