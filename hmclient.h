@@ -76,10 +76,20 @@ class HMClient{
     HMClient();
   
     /* read function */
-    boolean getHMSystemVariable();
+    boolean getHMSystemVariable(hmstring_t *HMSysVar);
+    boolean getHMSystemVariable(hmlist_t *HMSysVar);
+    boolean getHMSystemVariable(hmnumber_t *HMSysVar);
+    boolean getHMSystemVariable(hmbool_t *HMSysVar);
+    boolean getHMSystemVariable(hmalarm_t *HMSysVar);
   
     /* write function */
-    boolean setHMSystemVariable();
+    boolean setHMSystemVariable(hmstring_t *HMSysVar);
+    boolean setHMSystemVariable(hmlist_t *HMSysVar);
+    boolean setHMSystemVariable(hmnumber_t *HMSysVar);
+    boolean setHMSystemVariable(hmbool_t *HMSysVar);
+    boolean setHMSystemVariable(hmalarm_t *HMSysVar);
+  
+  
   private:
       const char* m_host;
       uint16_t m_port;
