@@ -5,8 +5,7 @@
 const char* ssid     = "Your SSID";
 const char* passcode = "Your PASSCODE";
 
-HMClient HM_Default;
-HMClient HMU_UserDefined("Server1");
+HMClient Homematic;
 
 void setup() {
   // put your setup code here, to run once:  
@@ -19,9 +18,15 @@ void setup() {
     Serial.print(".");
   }
   Serial.println("Connected");
-}
+  
+  hmstring_t RoofWeather;
+  
+  Homematic.setHMSystemVariable(&RoofWeather);
+  Serial.printf("Set Homematic Variable to Value : %d\n", RoofWeather.Value);
+  
+}//end setup
 
 void loop() {
-
-  
-}
+  // put your main code here, to run repeatedly:
+  yield();
+}//end loop
