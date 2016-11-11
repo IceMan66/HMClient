@@ -22,7 +22,7 @@ void setup() {
   hmstring_t RoofWeather;
   
   Homematic.setHMSystemVariable(&RoofWeather);
-  Serial.printf("Set Homematic Variable to Value : %d\n", RoofWeather.Value);
+  Serial.printf("Set Homematic Variable to Value : %s\n", RoofWeather.Value);
   
 }//end setup
 
