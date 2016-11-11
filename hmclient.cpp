@@ -11,11 +11,15 @@
 	m_port = 8181; 
  }
  
- boolean HMClient::setHMSystemVariable(){
+String HMClient::postData(char * host, uint16_t port, String url){
+	
+}
+
+ boolean HMClient::setHMSystemVariable(HMSysVar_t *HMSV){
 	 
  }
  
  
- boolean HMClient::getHMSystemVariable(){
+ boolean HMClient::getHMSystemVariable(HMSysVar_t *HMSV){
 	 
  }
